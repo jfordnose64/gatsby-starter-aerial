@@ -24,7 +24,6 @@ export default function Footer() {
               </li>
             );
           })}
-          q
         </ul>
         <a
           href={pdf}
