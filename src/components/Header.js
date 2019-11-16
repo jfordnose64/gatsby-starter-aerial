@@ -1,6 +1,8 @@
 import React from 'react';
+import { Link } from 'gatsby';
 
 import config from '../../config';
+import pdf from '../assets/Files/Resume.pdf';
 import './index.css';
 import headshot from '../assets/images/headshot.jpg';
 
@@ -22,9 +24,10 @@ export default function Footer() {
               </li>
             );
           })}
+          q
         </ul>
         <a
-          href="../assets/Files/Resume.pdf"
+          href={pdf}
           download
           style={{ textAlign: 'center', fontSize: '1.5rem', margin: '1rem' }}
         >
