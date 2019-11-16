@@ -1,5 +1,5 @@
 module.exports = {
-  siteTitle: 'Gatsby Starter Aerial', // <title>
+  siteTitle: 'Jackson Ford Portfolio', // <title>
   manifestName: 'Aerial',
   manifestShortName: 'Portfolio', // max 12 characters
   manifestStartUrl: '/',
@@ -10,28 +10,28 @@ module.exports = {
   pathPrefix: `/gatsby-starter-aerial/`, // This path is subpath of your hosting https://domain/portfolio
   // social
 
-  authorName: 'Anubhav Srivastava',
-  authorHeading: 'Web Developer - JAMStack - Open Source enthusiast',
+  authorName: 'Jackson Ford',
+  authorHeading: 'Full Stack Software Developer',
   authorSocialLinks: [
     {
       icon: 'fa-github',
       name: 'Github',
-      url: 'https://github.com/anubhavsrivastava',
+      url: 'https://github.com/jfordnose64',
     },
     {
-      icon: 'fa-twitter',
-      name: 'Twitter',
-      url: 'https://twitter.com/onlyanubhav',
+      icon: 'fa-linkedin',
+      name: 'LinkedIn',
+      url: 'https://www.linkedin.com/in/jackson-ford-799061188/',
     },
-    {
-      icon: 'fa-facebook',
-      name: 'Facebook',
-      url: 'https://facebook.com/theanubhav',
-    },
+    // {
+    //   icon: 'fa-facebook',
+    //   name: 'Facebook',
+    //   url: 'https://facebook.com/theanubhav',
+    // },
     {
       icon: 'fa-envelope-o',
       name: 'Email',
-      url: 'mailto:anubhav.srivastava00@gmail.com',
+      url: 'mailto:jfordnose64@gmail.com',
     },
   ],
 };
