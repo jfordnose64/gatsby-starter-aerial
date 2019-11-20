@@ -24,6 +24,11 @@ export default function Footer() {
               </li>
             );
           })}
+          <li>
+            <a href="/projects" class={`icon + fa-folder-open`}>
+              <span class="label">Projects</span>
+            </a>
+          </li>
         </ul>
         <a
           href={pdf}

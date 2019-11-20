@@ -23,11 +23,6 @@ module.exports = {
       name: 'LinkedIn',
       url: 'https://www.linkedin.com/in/jackson-ford-799061188/',
     },
-    // {
-    //   icon: 'fa-facebook',
-    //   name: 'Facebook',
-    //   url: 'https://facebook.com/theanubhav',
-    // },
     {
       icon: 'fa-envelope-o',
       name: 'Email',
