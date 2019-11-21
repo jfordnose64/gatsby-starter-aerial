@@ -44,13 +44,20 @@
   text-decoration: none;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 1000px) {
   .img {
     width: 7.5rem;
   }
 
   .item-con {
     margin: 0.5rem;
-    padding: 0.5rem;
+    padding: 1rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  .item-container {
+    justify-content: center;
+    flex-direction: column;
   }
 }
