@@ -45,6 +45,10 @@
 }
 
 @media (max-width: 1000px) {
+  html {
+    overflow-y: scroll;
+  }
+
   .img {
     width: 7.5rem;
   }
@@ -59,5 +63,9 @@
   .item-container {
     justify-content: center;
     flex-direction: column;
+  }
+
+  .margin {
+    margin-bottom: 10rem;
   }
 }

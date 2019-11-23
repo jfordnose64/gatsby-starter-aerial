@@ -28,7 +28,7 @@ const container = () => {
   ];
 
   return (
-    <div>
+    <div class="margin">
       <ul class="item-container">
         {items.map(item => {
           return (
