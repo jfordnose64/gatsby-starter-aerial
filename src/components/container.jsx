@@ -10,6 +10,7 @@ const container = () => {
       language: 'Javascript',
       photo:
         'https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png',
+      deployed: 'https://pot-hole-tracker.herokuapp.com/',
     },
     {
       project: 'Suncoast Overflow',
@@ -17,6 +18,7 @@ const container = () => {
       language: 'Javascript',
       photo:
         'https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png',
+      deployed: '',
     },
     {
       project: 'Pothole Tracker ',
@@ -24,6 +26,8 @@ const container = () => {
       language: 'Javascript/ React Native',
       photo:
         'https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png',
+      deployed:
+        'https://play.google.com/store/apps/details?id=com.jacksonford.potholetracker',
     },
   ];
 
@@ -43,6 +47,13 @@ const container = () => {
                 >
                   View on Github
                 </a>
+                {/* <b>
+                  {item.deployed != '' ? (
+                    <a class="deployed" href={item.deployed}>
+                      Deployed
+                    </a>
+                  ) : null}
+                </b> */}
               </div>
             </section>
           );

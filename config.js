@@ -1,6 +1,6 @@
 module.exports = {
   siteTitle: 'Jackson Ford Portfolio', // <title>
-  manifestName: 'Aerial',
+  manifestName: 'Jackson Ford Portfolio',
   manifestShortName: 'Portfolio', // max 12 characters
   manifestStartUrl: '/',
   manifestBackgroundColor: '#663399',

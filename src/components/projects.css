@@ -44,6 +44,10 @@
   text-decoration: none;
 }
 
+.deployed {
+  padding: 0.5rem;
+}
+
 @media (max-width: 1000px) {
   html {
     overflow-y: scroll;
