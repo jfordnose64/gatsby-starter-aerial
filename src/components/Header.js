@@ -33,7 +33,15 @@ export default function Footer() {
         <a
           href={pdf}
           download
-          style={{ textAlign: 'center', fontSize: '1.5rem', margin: '1rem' }}
+          class="resume"
+          style={{
+            textAlign: 'center',
+            fontSize: '1.5rem',
+            margin: '1rem',
+            backgroundColor: '#338bb2',
+            borderRadius: '1rem',
+            padding: '1rem',
+          }}
         >
           Click to download my resume
         </a>
