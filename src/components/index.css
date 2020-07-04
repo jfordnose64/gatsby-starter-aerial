@@ -4,6 +4,6 @@
   border: 3px solid white;
 }
 
-.resume:hover {
+.resume :hover {
   background-color: white;
 }
